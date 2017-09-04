@@ -1,0 +1,257 @@
+<<<<<<< Updated upstream
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    }
+.grass , .sky, .road{
+    
+    position: relative;
+}
+.sky{
+    height: 40%;
+    background-image: url(img/blue-sky-1189773-1920x1440.jpg)
+}
+
+.grass{
+    height: 30%;
+    background-image: url(img/download.jpg)
+}
+
+.road{
+    height: 30%;
+    background-color: dimgrey;
+    box-sizing: border-box;
+    border-top: 10px solid grey;
+    border-bottom: 10px solid grey;
+    width: 100%;
+
+}
+
+.lines{
+    box-sizing: border-box;
+    border: 5px dashed #fff;
+    height: 0px;
+    position: absolute;
+    width: 1400px;
+    top: 45%;
+animation: drive 15s infinite linear reverse;
+}
+/*.bike{
+    position: absolute;
+    top: -50px;
+    left: 0px;
+    animation-name: drive;
+    animation-duration: 8s;
+    animation-fill-mode: both;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+}*/
+.bike{
+    position: absolute;
+    top: -50px;
+    left: 20px;
+    
+    }
+
+.cloud{
+    position: absolute;
+    
+}
+.cloud:nth-child(1){
+    width: 200px;
+    top: 120px;
+    opacity: 0.5;
+  animation: wind 50s linear infinite reverse;   
+}
+
+.cloud:nth-child(2){
+    width: 300px;
+    animation: wind 40s 4s linear infinite both ;
+}   
+#bird1{position: absolute;}
+#bird2{position: absolute;}
+
+#bird1{
+    top: 140px;
+animation: motion 10s linear infinite both;
+} 
+#bird2{
+    top: 105px;
+animation: motion 10s linear infinite reverse;
+}
+
+.bike2{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    animation: moves 5s linear infinite reverse;
+}
+.sky #sun{
+ position: absolute;
+    opacity: 0.5;
+    }
+h1{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: aqua;
+}
+
+
+
+@keyframes motion{
+    from{transform: translate(-180px,-100px)}
+    
+    to{transform: translate(1400px,100px)}
+    }
+@keyframes drive{
+    from{transform: translateX(-1400px)}
+    
+    to{transform: translateX(1200px)}
+    }
+@keyframes moves{
+    from{transform: translateX(-180px)}
+    
+    to{transform: translateX(1400px)}
+    }
+@keyframes wind{
+    from{left: -300px}
+    to{left: 100%}
+    }
+@keyframes jump{
+    0%{top:-70px}
+    50%{top: -150px}
+    100%{top: -100px}
+}
+=======
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    }
+.grass , .sky, .road{
+    
+    position: relative;
+}
+.sky{
+    height: 40%;
+    background-image: url(img/blue-sky-1189773-1920x1440.jpg)
+}
+
+.grass{
+    height: 30%;
+    background-image: url(img/download.jpg)
+}
+
+.road{
+    height: 30%;
+    background-color: dimgrey;
+    box-sizing: border-box;
+    border-top: 10px solid grey;
+    border-bottom: 10px solid grey;
+    width: 100%;
+
+}
+
+.lines{
+    box-sizing: border-box;
+    border: 5px dashed #fff;
+    height: 0px;
+    position: absolute;
+    width: 1400px;
+    top: 45%;
+animation: drive 15s infinite linear reverse;
+}
+/*.bike{
+    position: absolute;
+    top: -50px;
+    left: 0px;
+    animation-name: drive;
+    animation-duration: 8s;
+    animation-fill-mode: both;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+}*/
+.bike{
+    position: absolute;
+    top: -50px;
+    left: 20px;
+    
+    }
+
+.cloud{
+    position: absolute;
+    
+}
+.cloud:nth-child(1){
+    width: 200px;
+    top: 120px;
+    opacity: 0.5;
+  animation: wind 50s linear infinite reverse;   
+}
+
+.cloud:nth-child(2){
+    width: 300px;
+    animation: wind 40s 4s linear infinite both ;
+}   
+#bird1{position: absolute;}
+#bird2{position: absolute;}
+
+#bird1{
+    top: 140px;
+animation: motion 10s linear infinite both;
+} 
+#bird2{
+    top: 105px;
+animation: motion 10s linear infinite reverse;
+}
+
+.bike2{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    animation: moves 5s linear infinite reverse;
+}
+.sky #sun{
+ position: absolute;
+    opacity: 0.5;
+    }
+h1{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: aqua;
+}
+
+
+
+@keyframes motion{
+    from{transform: translate(-180px,-100px)}
+    
+    to{transform: translate(1400px,100px)}
+    }
+@keyframes drive{
+    from{transform: translateX(-1400px)}
+    
+    to{transform: translateX(1200px)}
+    }
+@keyframes moves{
+    from{transform: translateX(-180px)}
+    
+    to{transform: translateX(1400px)}
+    }
+@keyframes wind{
+    from{left: -300px}
+    to{left: 100%}
+    }
+@keyframes jump{
+    0%{top:-70px}
+    50%{top: -150px}
+    100%{top: -100px}
+}
+>>>>>>> Stashed changes
